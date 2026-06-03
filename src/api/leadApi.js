@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://anvaya-crm-backend-seven.vercel.app/";
+const BASE_URL = "https://anvaya-crm-backend-seven.vercel.app";
 
 export const createLead = async (leadData) => {
   const response = await axios.post(`${BASE_URL}/leads`, leadData);
